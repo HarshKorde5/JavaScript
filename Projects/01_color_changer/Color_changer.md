@@ -11,7 +11,7 @@ Simple web project using Javascript and HTML,CSS
 Provided buttons on click change the background color of the webpage using Document Object Model for managing the color scheme
 
 
-#### [Github]("https://github.com/HarshKorde5/JavaScript/Projects)
+[Github]("https://github.com/HarshKorde5/JavaScript/Projects)
 
 ## 💻Code
 

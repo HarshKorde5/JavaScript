@@ -8,7 +8,7 @@
 Digital Clock displaying the time on the page according to the current time with basic and clean design and using DOM in the script file for updating each second on the webpage making it look like live clock
 ***
 
-#### [Github]("https://github.com/HarshKorde5/JavaScript/Projects)
+[Github]("https://github.com/HarshKorde5/JavaScript/Projects)
 ## 💻Code
 
 #### 📂index.html

@@ -9,7 +9,7 @@ Guessing random number game for 10 chances every game.
 Use of Math.random() function of Javascript for generating the random number for each game between 1 to 100 by using validations of input guess number provided the range 1 to 100.The game resets after 10 chances are utilized by the user.
 ***
 
-#### [Github]("https://github.com/HarshKorde5/JavaScript/Projects)
+[Github]("https://github.com/HarshKorde5/JavaScript/Projects)
 ---
 ## 💻Code
 
