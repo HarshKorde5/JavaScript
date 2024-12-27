@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM | Node Creation</title>
+        <style>
+            .bg-black{
+                background-color: #212121;
+                color : white;
+            }
+        </style>
+    </head>
+
+    <body class="bg-black">
+        <h1>DOM | Node Creation</h1>        
+        
+    </body>
+
+    <script>
+        const div = document.createElement('div');
+        console.log(div);
+
+        div.className = "main";
+        
+        div.id = Math.round(Math.random()*10+1)
+
+        div.setAttribute("title","generated title");
+
+        div.style.backgroundColor = "green";
+        div.style.padding = "10px"
+        div.style.textAlign = "center";
+        div.style.borderRadius = "10px";
+
+        // div.innerText = "Created Div";   //travels whole tree again
+
+        const addText = document.createTextNode("Created Div");
+        div.appendChild(addText);
+
+        document.body.appendChild(div);
+    </script>
+</html>

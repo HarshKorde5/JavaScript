@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM | Parent-Child</title>
+        <style>
+            .bg-black{
+                background-color: #212121;
+                color : white;
+            }
+        </style>
+    </head>
+
+    <body class="bg-black">
+        <h1>DOM | Parent-Child</h1>
+        <div class="parent">
+            <div class="day">Monday</div>
+            <div class="day">Tuesday</div>
+            <div class="day">Wednesday</div>
+            <div class="day">Thursday</div>
+        </div>
+    </body>
+
+    <script>
+        const parent = document.querySelector('.parent');
+        // console.log(parent);
+        // console.log(parent.children);
+        // console.log(parent.children[1].innerHTML);
+        
+        for(let i = 0;i < parent.children.length;i++)
+        {
+            // console.log(parent.children[i].innerHTML);
+        }
+        parent.children[1].style.backgroundColor = "green";
+
+        // console.log(parent.firstElementChild);
+        // console.log(parent.lastElementChild);
+
+        const dayOne = document.querySelector('.day');
+        // console.log(dayOne);
+        // console.log(dayOne.parentElement);
+        // console.log(dayOne.nextElementSibling);
+
+        // console.log("NODES : ",parent.childNodes);
+
+    </script>
+</html>
