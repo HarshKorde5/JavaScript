@@ -9,7 +9,7 @@ Web Project for calculating and displaying the Body Mass Index of the user provi
 
 ***
 
-[Github]("https://github.com/HarshKorde5/JavaScript/Projects)
+[Github](https://github.com/HarshKorde5/JavaScript/Projects)
 
 ## 💻Code
 
