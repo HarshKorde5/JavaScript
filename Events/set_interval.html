@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    let intervalId;
+
+    const startButton = document.getElementById('start');
+    const stopButton = document.getElementById('stop');
+
+    
+
+    const startInterval = function(){
+        if(!intervalId)
+        {
+            intervalId = setInterval(startPrinting, 2000, "hi")
+        }
+        
+        function startPrinting(str){
+            console.log(str, Date.now());
+        }
+    }
+
+    const stopInterval = function(){
+        clearInterval(intervalId)
+        console.log("STOPPED", Date.now());
+        intervalId = null;
+    }
+
+    startButton.addEventListener('click',startInterval);
+    stopButton.addEventListener('click',stopInterval);
+    
+</script>
+</html>
