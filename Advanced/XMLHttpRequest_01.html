@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XMLHttpRequest</title>
+</head>
+<body>
+    <h2>Use of XMLHttpRequest</h2>
+</body>
+<script>
+    const url = 'https://randomuser.me/api/'
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET',url);
+    console.log(xhr.readyState)
+    xhr.send();
+</script>
+</html>
